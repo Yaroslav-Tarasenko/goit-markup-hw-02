@@ -19,12 +19,8 @@ body {
   background-color: #ffffff;
 }
 
-.list {
+.link {
   list-style-type: none;
-  text-decoration: none;
-}
-
-.ul {
   text-decoration: none;
 }
 
@@ -45,6 +41,26 @@ body {
 }
 
 .head-list-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-list-link:hover {
+  color: var(--accent-color);
+}
+
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+
+.head-right-link {
+  color: var(--header-contacts-color);
+}
+
+.head-right-link:hover {
+  color: var(--accent-color);
+}
+
+.ead-right-link:focus {
   color: var(--accent-color);
 }
 
@@ -86,6 +102,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+}
+
+.hero-upper-information {
   background-color: #2f303a;
 }
 
@@ -98,18 +117,19 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   font-family: inherit;
-  background-color: #2f303a;
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
 }
 
 .order-button:hover {
-  color: var(--accent-color);
+  color: var(--button-text-color);
 }
 
 .order-button:focus {
-  color: var(--accent-color);
+  color: var(--button-text-color);
 }
 
-.portfolio-nav-item {
+.portfolio-nav-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 2.62;
@@ -119,10 +139,11 @@ body {
   cursor: pointer;
 }
 
-.portfolio-nav-item:hover {
+.portfolio-nav-button:hover {
+  text-decoration-color: var(--button-text-color);
   color: var(--accent-color);
 }
-.portfolio-nav-item:focus {
+.portfolio-nav-button:focus {
   color: var(--accent-color);
 }
 
@@ -167,7 +188,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--team-name-color);
 }
@@ -176,7 +196,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--team-text-color);
 }
@@ -188,10 +207,13 @@ body {
 /*---------------footer style---------------*/
 
 .footer {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   background-color: #2f303a;
-  font-family: inherit;
 }
 .contact-list-adress {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -201,12 +223,28 @@ body {
 }
 
 .contact-list-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--header-contacts-color);
   font-family: inherit;
+}
+
+.contact-list-link:hover {
+  color: var(--accent-color);
+}
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-list-adress:hover {
+  color: var(--accent-color);
+}
+.contact-list-adress:focus {
+  color: var(--accent-color);
 }
 
 /*---------------portfolio style---------------*/
